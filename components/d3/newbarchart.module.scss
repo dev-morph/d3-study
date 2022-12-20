@@ -1,0 +1,14 @@
+.bar {
+    fill: steelblue;
+    cursor: pointer;
+    // transition: fill 200ms ease-in-out;
+    &:hover {
+        fill: red;
+        // fill: rgb(255, 161, 84);
+    }
+}
+
+.gridline {
+    color: rgb(188, 188, 188);
+    opacity: 0.4;
+}
